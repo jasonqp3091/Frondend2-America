@@ -1,0 +1,45 @@
+ para correr hacer que css se compatible con todos los navegadores usar stylus
+  instar el node .js
+
+  node -v 
+  verifica node
+
+  npm install stylus -g
+
+  sudo install stylus -g en linux
+
+  stylus -V 
+  verifica stylus en la compu
+
+
+stylus nombredelarchivo.styl
+sirve para crear el css
+
+stylus nombredelarchivo.styl -c 
+comprime el css;
+
+stylus nombredelarchivo.styl -c -w
+comprime el css y ya usa watch que hace q no sea necesario estar compilando solo con guardar y cargar el .styl cambia el css;
+
+
+permite crear variables
+tipo 
+nombre_variable = #colorraroquese invente y se usa asi
+
+
+body
+	background nombre_variable
+
+------------------------normalize---------------------------
+normalize es la manera	correcta de resetear todo para quitar el espacio de margenes de los contenidos
+
+es un css q se llama antes de nuestro codigo css
+
+---notas---
+em es la unidad equivalente para usar en margenes 
+ya q son relativos a la fuente mas cercana al margen
+
+
+--dise;o retina---
+1 px vale x 4px 
+con imagenes es mejor usar px
